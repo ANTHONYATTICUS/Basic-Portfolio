@@ -1,0 +1,266 @@
+/*  ready */
+body {
+    margin: 0%;
+    background-image: url("background.jpg")
+    
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* header */
+ul {
+    list-style-type: none;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    border-right: 1px solid;
+}
+
+#mright {
+    margin-right: 20%;
+}
+
+#box1 {
+    float: left;
+    padding: 34px;
+    margin-bottom: 0px;
+    width: 20%;
+    background-color: white;
+
+}
+
+#box2 {
+    float: left;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 20%;
+    background-color: rgb(41, 136, 138) ;
+    color: white;
+    text-align: center;
+}
+
+#box3 {
+    overflow: auto;
+    float: left;
+    padding: 25px;
+    margin-bottom: 0px;
+    width: 60%;
+    background-color: white;
+    text-align: right;
+    color: lightgray;
+}
+
+#box4 {
+    height: 25%;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border: 1px solid lightgrey;
+    align-content: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 25px;
+    margin-bottom: 10%;
+    font-family: sans-serif;
+    color: grey;
+}
+
+#box5 {
+    height: 40px;   
+    background-color: white;
+    width: 100%;
+    float: left;
+    
+}
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(83, 83, 83);
+    color: lightgrey;
+    font-family: sans-serif;
+    height: 75px;
+    text-align: center;
+}
+
+/* #copywrite {
+     bottom: 0;
+     text-align: center;
+     color: lightgrey;
+     font-family: sans-serif;
+     bottom: 0%;    
+} */
+
+/* About Me Page */
+
+#about {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    color: teal;
+    margin-top: 0%;
+}
+
+#strip {
+    width: 100%;
+    padding: 1px;
+    background-color: lightgrey;
+    margin-bottom: 75px;
+    
+}
+
+#strip2 {
+   width: 100%;
+   padding: 1.5px;
+   background-color: lightgrey;
+}
+
+#strip3 {
+        width: 100%;
+        padding: 4px;
+        margin-bottom: 20px;
+        background-color: teal;
+}
+
+img {
+    float:left;
+    height: 200px;
+    width: 20%; 
+    margin-top: 30px;
+    margin-right: 20px;
+   
+}
+
+#p1 {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: grey;
+    font-family: sans-serif;
+    text-align: justify
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.img-container {
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+
+/* CONTACT BOX */
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+}
+.button {
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+/* Portfolio */
+
+.portfolio-item {
+    position: relative; 
+    display: inline-block;
+    font-size: 12px;
+}
+
+.portfolio-banner {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    background: teal;
+    color: white;
+    width: 200px;
+    padding: 7px;
+  
+}
+.portfolio-row {
+    clear: right;
+}
+
+.portfolio-pic {
+    width: 200px;
+    float: left;
+}
