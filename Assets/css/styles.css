@@ -1,7 +1,7 @@
 /*  ready */
 body {
     margin: 0%;
-    background-image: url("background.jpg")
+    background-image: url("../images/background.jpg");
     
 }
 
@@ -231,7 +231,7 @@ label {
 .portfolio-item {
     position: relative; 
     display: inline-block;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .portfolio-banner {
