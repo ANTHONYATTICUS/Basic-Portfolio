@@ -1,67 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-    <link rel="stylesheet" href="./Assets/css/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>contact</title>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 </head>
 
 <body>
-    <nav>
-        <div id="box1"></div>
-        <div id="box2" class="clearfix">
-            <h1>Anthony Rodriguez</h1>
-        </div>
-        <div id="box3">
-            <ul>
-                <li id="mright"><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="clearfix" id="strip"> </div>
-    <div class="clearfix" id="box4">
-        <div id="about">
-            <h1>Contact</h1>
-        </div>
-        <div id="strip2"></div>
 
-        <div class="container">
-            <form action="/action_page.php">
-                <div class="row">
-                    <div class="col-75">
-                        <label for="fname">Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="John Smith">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-75">
-                        <label for="lname">Email</label>
-                        <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-75">
-                        <label for="subject">Message</label>
-                        <textarea id="subject" name="subject" style="height:200px"></textarea>
-                    </div>
-                </div>
-                <div>
-                    <a href="#" class="button">Submit</a>
-                </div>
-            </form>
-        </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Anthony Rodriguez</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <div class="footer">
-            <div id="strip3"></div>
-            Copywrite ©
-        </div>
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>
